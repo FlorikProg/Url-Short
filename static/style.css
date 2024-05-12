@@ -1,0 +1,62 @@
+html {
+    background-color: rgb(15, 35, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-input {
+    margin-top: 75%;
+}
+
+#input-nickname {
+    background-color: rgb(10, 24, 35);
+    width:350px;
+    height: 40px;
+    border: rgb(23, 50, 75) 2px solid;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#button-submit {
+    background-color: rgb(10, 24, 35);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border: rgb(23, 50, 75) 2px solid;
+    outline: none;
+    height: 42px;
+    border-radius: 5px;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.button-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 400px) { 
+    #input-nickname {
+      width: 300px;
+    }
+  }
+  
+@media (max-width: 350px) { 
+#input-nickname {
+    width: 280px;
+}
+}
+
+            
